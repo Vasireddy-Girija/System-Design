@@ -1,0 +1,15 @@
+1 million = 10 lakhs
+1 billion = 1000 million = 100 crores
+
+1 byte = 8 bits
+prefix multipliers - kilo, mega, giga, tera, peta
+1 kilo byte = 10^3 bytes
+1 mega = 10^6 bytes
+1 giga = 10^9 bytes
+1 tera byte = 10^12 bytes
+
+base 36 encoding - [a-z][0-9] (26+10) - Only contains these characters
+base 62 encoding - [A-Z][a-z][0-9] (26+26+10)
+base 64 encoding - [.,][A-Z][a-z][0-9]
+
+encoding algos - MD5,SHA256
