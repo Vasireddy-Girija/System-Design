@@ -1,4 +1,10 @@
 text - object storage like Amazon S3
-images -
+images - (avg sie 500KB)
 audio -
 video -
+
+Distributed file storage - HDFS, S3
+Cassandra - wide column data store, Cassandra or key-value stores in general, always maintain a certain number of replicas to offer reliability. 
+Also, in such data stores, deletes don’t get applied instantly, data is retained for certain days (to support undeleting) before getting removed from the system permanently. 
+
+No. of concurrent requests allowed by the server - Split read and writes to separate servers if connection limit ia a bottleneck.
