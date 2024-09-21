@@ -1,2 +1,5 @@
 reliability - Any uploaded tet/image/video should never be lost.
 consistency - Not being able to read the latest write.
+redundancy - Having multiple services to do the same thing. At any point, we might need one server, even though others don't serve any
+              traffic, they are there so that failover can happen when the server serving traffic fails/degrades. 
+              Redundancy helps in avoiding single point of failure, to increase availability.
