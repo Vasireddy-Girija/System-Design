@@ -1,0 +1,6 @@
+200 - success
+300 - redirection
+400 - Bad request (Server cannot understand or process request)
+  401 - unauthorized
+  403 - forbidden (server has received the request but refused to process it)
+500 - server error
