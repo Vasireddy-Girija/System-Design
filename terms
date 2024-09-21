@@ -1,0 +1,2 @@
+reliability - Any uploaded tet/image/video should never be lost.
+consistency - Not being able to read the latest write.
