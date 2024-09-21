@@ -1,0 +1,5 @@
+KeyGenerationService
+KeyGenerationDB - SQL DBs can generate auto-incremental keys while insertion. We can have 2 DBs to generate odd keys and even keys.
+
+DataPartitioning for hotUsers - Generate id independent of user and partition based on id % (total shards).
+Each database server has many database instances, put logical shards in same server, when any shard increases, move the logical shards to different dabase server.
