@@ -1,0 +1,3 @@
+Transactions - database abstraction (A transaction is a logical unit of work where all tasks must succeed or none can succeed.)
+Data should move from one consistent state to other consistent state after each transaction. Users will be provided with either commit, if transaction succeeds
+  or abort if it fails. 
